@@ -8,7 +8,8 @@ const { createApp } = Vue
   createApp({
     data() {
       return {
-        message: 'Questo è un messaggio'
+        message: 'Ciao a tutti!',
+        urlImage: 'https://picsum.photos/id/870/200/300?grayscale&blur=2'
       }
     }
   }).mount('#app')
