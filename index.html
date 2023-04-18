@@ -11,8 +11,10 @@
      
      <div id="app">
 
-          <h1> {{message}} </h1>
-          <img v-bind:src="urlImage" alt="">
+          <div v-bind:class="textCenter">
+               <h1 v-bind:class="colorRed"> {{message}} </h1>
+               <img v-bind:src="urlImage" alt="">
+          </div>
 
      </div>
 
